@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>OPEYEMI LOAN APP</title>
+<title>Lend Now</title>
 <style>
 nav {
       margin-top: 10px;
@@ -56,7 +56,7 @@ nav {
     </nav>
 <div class="wrap">
   <header>
-    <h1>Opeyemi Faleye Lending App </h1>
+    <h1>Lend Now </h1>
     <div class="controls">
       <button id="exportBtn" class="small">Export CSV</button>
       <button id="importBtn" class="small">Import CSV</button>
@@ -128,12 +128,10 @@ nav {
           <option value="palmpay">Palmpay</option>
           <option value="opay">Opay</option>
           <input id="bank account" type="number" placeholder="e.g. Polaris Bank" />
-      </div>
       <div style="grid-column:1 / -1">
         <label for="notes">Notes / Terms</label>
         <textarea id="notes" rows="2" placeholder="Reason or notes..."></textarea>
       </div>
-    </div>
     <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
       <button id="addBtn">Summit</button>
       <button id="addAndMessageBtn" class="ghost">Add & Message via WhatsApp</button>
@@ -437,5 +435,3 @@ nav {
   render();
 })();
 </script>
-</body>
-</html>
